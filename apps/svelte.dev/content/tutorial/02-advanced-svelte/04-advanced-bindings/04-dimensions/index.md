@@ -13,3 +13,5 @@ You can add `clientWidth`, `clientHeight`, `offsetWidth` and `offsetHeight` bind
 ```
 
 These bindings are readonly — changing the values of `w` and `h` won't have any effect on the element.
+
+> [!NOTE] This will not work with `display: inline` elements as the resize event does not apply to those elements and they lack defined width and height properties.
